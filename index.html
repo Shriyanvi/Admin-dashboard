@@ -1,0 +1,147 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="side-bar">
+            <h1>Admin Dashboard</h1>
+            <ul class="nav-links">
+                <li><a href="#">Show products</a></li>
+                <li><a href="#">Add a product</a></li>
+                <a href="#"></a>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+               <!-- <img src="images/logo.png" alt=""> -->
+            </div>
+            <span class="logo_name">Admin Dashboard</span>
+        </div>
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dahsboard</span>
+                </a></li>
+                <li><a href="index.html">
+                    <i class="uil uil-files-landscapes"></i>
+                    <span class="link-name">Show Products</span>
+                </a></li>
+                <li><a href="add.html">
+                    <i class="uil uil-plus"></i>
+                    <span class="link-name">Add products</span>
+                </a></li>
+                <!-- <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Like</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-comments"></i>
+                    <span class="link-name">Comment</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-share"></i>
+                    <span class="link-name">Share</span>
+                </a></li> -->
+            </ul>
+            
+            <!-- <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Logout</span>
+                </a></li>
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul> -->
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="dash-content">
+        <div class="activity">
+            <div class="title">
+                <i class="uil uil-clock-three"></i>
+                <span class="text">Recent Activity</span>
+            </div>
+            <div class="activity-data">
+                <div class="data names">
+                    <span class="data-title">Name</span>
+                    <ul class="name">
+                        <li><span class="pname"></span></li>
+                    </ul>
+                    
+                </div>
+                <div class="data email">
+                    <span class="data-title">Id</span>
+                    <ul class="id">
+                        <li><span class="pid"></span></li>
+                    </ul>
+                    
+                </div>
+                <div class="data joined">
+                    <span class="data-title">Quantity</span>
+                    <ul class="quantity">
+                        <li><span class="pquantity"></span></li>
+                    </ul>
+                    
+                </div>
+                <div class="data type">
+                    <span class="data-title">Price</span>
+                    <ul class="price">
+                        <li><span class="pprice"></span></li>
+                    </ul>
+                    
+                </div>
+                <div class="data status">
+                    <span class="data-title">Delete</span>
+                    <ul class="delete">
+                        <li><span class="delete-btn"></span></li>
+                    </ul>
+                    <!-- <span class="delete-btn" ><button type="button" class ="dltBtn">Delete</button></span> -->
+                     
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="deleteContainer"> 
+
+        <form class="deleteForm">
+            <input type="text" placeholder="How much quantity to delete"><br><br>
+            <button type="button" class="dltBtn">Delete</button>
+        </form>
+    </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
